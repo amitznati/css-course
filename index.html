@@ -11,7 +11,9 @@
 <body>
     <div class="navigation">
         <input type="checkbox" class="navigation__checkbox" id="navigation">
-        <label for="navigation" class="navigation__button">MENU</label>
+        <label for="navigation" class="navigation__button">
+            <span class="navigation__icon">&nbsp;</span>
+        </label>
         <div class="navigation__bg">&nbsp;</div>
         <div class="navigation__nav">
             <ul class="navigation__list">
@@ -32,7 +34,7 @@
                 <span class="heading-primary--main">react bp</span>
                 <span class="heading-primary--sub">scalable react boilerplate</span>
             </h1>
-            <a href="#" class="btn btn-white btn-animated">get started</a>
+            <a href="#section-packages" class="btn btn-white btn-animated">get started</a>
         </div>
 
     </header>
@@ -111,7 +113,7 @@
             </div>
         </section>
 
-        <section class="section-packages">
+        <section class="section-packages" id="section-packages">
             <div class="u-center-text u-margin-bottom-big">
                 <h2 class="heading-secondary">
                     packages and prices
@@ -145,7 +147,7 @@
                                     <div class="card__price-only">Only</div>
                                     <div class="card__price-value">$17</div>
                                 </div>
-                                <a href="#" class="card__price-btn btn btn-white">get started!</a>
+                                <a href="#popup" class="card__price-btn btn btn-white">get started!</a>
                             </div>
                         </div>
                     </div>
@@ -177,7 +179,7 @@
                                     <div class="card__price-only">Only</div>
                                     <div class="card__price-value">$150</div>
                                 </div>
-                                <a href="#" class="card__price-btn btn btn-white">get started!</a>
+                                <a href="#popup" class="card__price-btn btn btn-white">get started!</a>
                             </div>
                         </div>
                     </div>
@@ -209,7 +211,7 @@
                                     <div class="card__price-only">Only</div>
                                     <div class="card__price-value">$530</div>
                                 </div>
-                                <a href="#" class="card__price-btn btn btn-white">get started!</a>
+                                <a href="#popup" class="card__price-btn btn btn-white">get started!</a>
                             </div>
                         </div>
                     </div>
@@ -339,5 +341,27 @@
             </div>
         </div>
     </footer>
+
+    <div class="popup" id="popup">
+        <div class="popup__content">
+
+            <div class="popup__left">
+                <img src="images/profile2.jpg" alt="popup photo" class="popup__img">
+                <img src="images/profile1.jpg" alt="popup photo" class="popup__img">
+            </div>
+            <div class="popup__right">
+                <a href="#section-packages" class="popup__close">&times;</a>
+                <h2 class="heading-secondary u-margin-bottom-small">Start your trial</h2>
+                <h3 class="heading-tertiary u-margin-bottom-small">please read this scoffs ghost</h3>
+                <p class="popup__text u-margin-bottom-medium">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet cumque ducimus eius eos facere labore libero nemo, nesciunt, non officia placeat praesentium quam quod, reiciendis ullam voluptas? Labore, placeat.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet cumque ducimus eius eos facere labore libero nemo, nesciunt, non officia placeat praesentium quam quod, reiciendis ullam voluptas? Labore, placeat.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet cumque ducimus eius eos facere labore libero nemo, nesciunt, non officia placeat praesentium quam quod, reiciendis ullam voluptas? Labore, placeat.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet cumque ducimus eius eos facere labore libero nemo, nesciunt, non officia placeat praesentium quam quod, reiciendis ullam voluptas? Labore, placeat.
+                </p>
+                <a href="#" class="btn btn-primary">Buy Now</a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
