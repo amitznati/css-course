@@ -72,7 +72,7 @@ body {
   text-transform: uppercase;
   font-size: 3.5rem;
   font-weight: 700;
-  background-image: linear-gradient(to right, #b1d9e0, #1b5761);
+  background-image: linear-gradient(to right, #96e1f6, #275663);
   display: inline-block;
   -webkit-background-clip: text;
   color: transparent;
@@ -105,7 +105,7 @@ body {
 
 .header {
   height: 95vh;
-  background-image: linear-gradient(to right bottom, rgba(27, 87, 97, 0.8), rgba(27, 87, 97, 0.8)), url(https://railsware.com/blog/wp-content/uploads/2019/07/Why-we-use-ReactJS-for-our-projects-Illustration.jpg);
+  background-image: linear-gradient(to right bottom, rgba(150, 225, 246, 0), #275663), url(../../images/bg1.png);
   background-size: cover;
   background-position: top;
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
@@ -152,7 +152,7 @@ body {
     transition: all .2s;
     background-color: #333; }
   .footer__link:hover, .footer__link:active {
-    color: #3ab9d0;
+    color: #4ba7c1;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
     transform: scale(1.3) rotate(5deg); }
   .footer__copyright {
@@ -194,7 +194,7 @@ body {
 
 .section-features {
   padding: 20rem 0;
-  background-image: linear-gradient(to right bottom, rgba(177, 217, 224, 0.9), rgba(27, 87, 97, 0.9)), url(../../images/howtospeedupreact-thumb.jpg);
+  background-image: linear-gradient(to right bottom, rgba(150, 225, 246, 0.9), rgba(39, 86, 99, 0.9)), url(../../images/howtospeedupreact-thumb.jpg);
   background-size: cover;
   transform: skewY(-7deg);
   margin-top: -20vh; }
@@ -215,7 +215,7 @@ body {
 
 .section-book {
   padding: 15rem 0 15rem 0;
-  background-image: linear-gradient(to right bottom, #b1d9e0, #1b5761); }
+  background-image: linear-gradient(to right bottom, #96e1f6, #275663); }
 
 .btn, .btn:link, .btn:visited {
   text-decoration: none;
@@ -261,9 +261,9 @@ body {
 
 .btn-primary {
   color: #ffffff;
-  background-color: #3ab9d0; }
+  background-color: #4ba7c1; }
   .btn-primary:after {
-    background-color: #3ab9d0; }
+    background-color: #4ba7c1; }
 
 .btn-animated {
   animation: moveInBottom .5s ease-out .75s;
@@ -271,21 +271,21 @@ body {
 
 .btn-text:link, .btn-text:visited {
   font-size: 1.5rem;
-  color: #3ab9d0;
+  color: #4ba7c1;
   display: inline-block;
   text-decoration: none;
-  border-bottom: 1px solid #3ab9d0;
+  border-bottom: 1px solid #4ba7c1;
   padding: 3px;
   transition: all .2s; }
 
 .btn-text:hover {
-  background-color: #3ab9d0;
+  background-color: #4ba7c1;
   color: #ffffff;
   transform: translateY(-0.3rem);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4); }
 
 .btn-text:active {
-  background-color: #3ab9d0;
+  background-color: #4ba7c1;
   color: #ffffff;
   transform: translateY(-0.1rem);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4); }
@@ -311,7 +311,7 @@ body {
     .composition__photo:hover {
       transform: scale(2);
       z-index: 3;
-      outline: 0.5rem solid #3ab9d0; }
+      outline: 0.5rem solid #4ba7c1; }
   .composition:hover .composition__photo:not(:hover) {
     transform: scale(0.9); }
 
@@ -324,7 +324,7 @@ body {
   transition: all .2s; }
   .feature-box--icon {
     font-size: 6rem;
-    background-image: linear-gradient(to right, #b1d9e0, #1b5761);
+    background-image: linear-gradient(to right, #96e1f6, #275663);
     -webkit-background-clip: text;
     color: transparent; }
   .feature-box:hover {
@@ -350,12 +350,12 @@ body {
     .card__side--front {
       background-color: #ffffff; }
     .card__side--back {
-      background-color: #3ab9d0;
+      background-color: #4ba7c1;
       transform: rotateY(180deg); }
       .card__side--back-1 {
         background-image: linear-gradient(to right bottom, #f1c5f0, #760674); }
       .card__side--back-2 {
-        background-image: linear-gradient(to right bottom, #b1d9e0, #1b5761); }
+        background-image: linear-gradient(to right bottom, #96e1f6, #275663); }
       .card__side--back-3 {
         background-image: linear-gradient(to right bottom, #caecb3, #2d6107); }
   .card:hover .card__side--front {
@@ -370,7 +370,7 @@ body {
     .card__image--1 {
       background-image: linear-gradient(to right bottom, #f1c5f0, #760674), url("../../images/hi-tech1.jpg"); }
     .card__image--2 {
-      background-image: linear-gradient(to right bottom, #b1d9e0, #1b5761), url("../../images/hi-tech2.jpg"); }
+      background-image: linear-gradient(to right bottom, #96e1f6, #275663), url("../../images/hi-tech2.jpg"); }
     .card__image--3 {
       background-image: linear-gradient(to right bottom, #caecb3, #2d6107), url("../../images/hi-tech3.jpg"); }
   .card__header {
@@ -390,7 +390,7 @@ body {
     .card__header-span--1 {
       background-image: linear-gradient(to right, rgba(241, 197, 240, 0.85), rgba(118, 6, 116, 0.85)); }
     .card__header-span--2 {
-      background-image: linear-gradient(to right, rgba(177, 217, 224, 0.85), rgba(27, 87, 97, 0.85)); }
+      background-image: linear-gradient(to right, rgba(150, 225, 246, 0.85), rgba(39, 86, 99, 0.85)); }
     .card__header-span--3 {
       background-image: linear-gradient(to right, rgba(202, 236, 179, 0.85), rgba(45, 97, 7, 0.85)); }
   .card__details {
@@ -508,10 +508,10 @@ body {
   display: block;
   transition: all .1s; }
   .form__input:valid {
-    border-bottom: 3px solid #3ab9d0; }
+    border-bottom: 3px solid #4ba7c1; }
   .form__input:focus {
     outline: none;
-    border-bottom: 3px solid #3ab9d0;
+    border-bottom: 3px solid #4ba7c1;
     background-color: #ffffff;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4); }
     .form__input:focus:invalid {
@@ -526,7 +526,7 @@ body {
 
 .form__label {
   font-size: 1.6rem;
-  color: #3ab9d0;
+  color: #4ba7c1;
   font-weight: 400;
   margin-left: 2rem;
   display: block;
@@ -547,7 +547,7 @@ body {
   top: -.4rem;
   left: 0;
   border-radius: 50%;
-  border: 3px solid #3ab9d0;
+  border: 3px solid #4ba7c1;
   display: inline-block; }
   .form__radio-button::after {
     content: '';
@@ -559,7 +559,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
-    background-color: #3ab9d0;
+    background-color: #4ba7c1;
     opacity: 0;
     transition: opacity .2s; }
 
