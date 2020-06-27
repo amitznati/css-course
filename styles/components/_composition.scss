@@ -10,14 +10,27 @@
     &--p1 {
       left: 0;
       top: -2rem;
+      @include respond(tab-port){
+        left: 0;
+        top: -1rem;
+      }
     }
     &--p2 {
       left: 50%;
       top: 3rem;
+      @include respond(tab-port){
+        left: 50%;
+        top: 1rem;
+      }
+
     }
     &--p3 {
       left: 20%;
       top: 12rem;
+      @include respond(tab-port){
+        left: 25%;
+        top: 0;
+      }
     }
 
     &:hover {

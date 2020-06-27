@@ -55,5 +55,8 @@
     width: 80%;
     float: right;
     padding-top: 2rem;
+    @include respond(tab-port){
+      float: none;
+    }
   }
 }

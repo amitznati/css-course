@@ -4,10 +4,15 @@
   box-shadow: 0 3rem 6rem rgba($color-black, .1);
   background-color: rgba($color-white, .6);
   border-radius: 3px;
-  padding: 6rem;
-  padding-left: 9rem;
+  padding: 6rem 6rem 6rem 9rem;
   font-size: $default-font-size;
   transform: skewX(-12deg);
+
+  @include respond(tab-port){
+    transform: skewX(0deg);
+    padding: 3rem;
+    width: 100%;
+  }
 
   &__shape {
     width: 15rem;
@@ -20,6 +25,9 @@
     transform: translateX(-3rem) skewX(12deg);
     position: relative;
     overflow: hidden;
+    @include respond(tab-port){
+      transform: skewX(0deg);
+    }
   }
 
   &__img {
@@ -31,6 +39,9 @@
 
   &__text {
     transform: skewX(12deg);
+    @include respond(tab-port){
+      transform: skewX(0deg);
+    }
   }
 
   &__caption {
