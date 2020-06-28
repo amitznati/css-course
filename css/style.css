@@ -149,7 +149,7 @@ body {
 
 .header {
   height: 95vh;
-  background-image: linear-gradient(to right bottom, rgba(150, 225, 246, 0), #275663), url(../../images/bg1.png);
+  background-image: linear-gradient(to right bottom, rgba(150, 225, 246, 0), #275663), url(../images/bg1.png);
   background-size: cover;
   background-position: top;
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
@@ -388,7 +388,7 @@ body {
 
 .section-features {
   padding: 20rem 0;
-  background-image: linear-gradient(to right bottom, rgba(150, 225, 246, 0.9), rgba(39, 86, 99, 0.9)), url(../../images/bg2.jpg);
+  background-image: linear-gradient(to right bottom, rgba(150, 225, 246, 0.9), rgba(39, 86, 99, 0.9)), url(../images/bg2.jpg);
   background-size: cover;
   transform: skewY(-7deg);
   margin-top: -20vh; }
@@ -583,11 +583,11 @@ body {
     background-blend-mode: screen;
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
     .card__image--1 {
-      background-image: linear-gradient(to right bottom, #f1c5f0, #760674), url("../../images/hi-tech1.jpg"); }
+      background-image: linear-gradient(to right bottom, #f1c5f0, #760674), url("../images/hi-tech1.jpg"); }
     .card__image--2 {
-      background-image: linear-gradient(to right bottom, #96e1f6, #275663), url("../../images/hi-tech2.jpg"); }
+      background-image: linear-gradient(to right bottom, #96e1f6, #275663), url("../images/hi-tech2.jpg"); }
     .card__image--3 {
-      background-image: linear-gradient(to right bottom, #caecb3, #2d6107), url("../../images/hi-tech3.jpg"); }
+      background-image: linear-gradient(to right bottom, #caecb3, #2d6107), url("../images/hi-tech3.jpg"); }
   .card__header {
     font-size: 2.8rem;
     font-weight: 300;
@@ -709,14 +709,14 @@ body {
     object-fit: cover; }
 
 .book {
-  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.7) 50%, rgba(255, 255, 255, 0) 50.2%), url("../../images/booking.jpg");
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.7) 50%, rgba(255, 255, 255, 0) 50.2%), url("../images/booking.jpg");
   background-size: cover;
   background-position: center;
   border-radius: 3px;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4); }
   @media (max-width: 56.25em) {
     .book {
-      background-image: linear-gradient(105deg, white, rgba(255, 255, 255, 0.7)), url("../../images/booking.jpg"); } }
+      background-image: linear-gradient(105deg, white, rgba(255, 255, 255, 0.7)), url("../images/booking.jpg"); } }
   .book__form {
     width: 50%;
     padding: 6rem; }
