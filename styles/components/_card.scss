@@ -1,12 +1,12 @@
 .card {
 
   //FUNCTIONALITY
-  height: 50rem;
+  height: 54rem;
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
   &__side {
-    height: 50rem;
+    height: 54rem;
     position: absolute;
     transition: all .8s ease;
     top: 0;

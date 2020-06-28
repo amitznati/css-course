@@ -2,7 +2,7 @@
   max-width: $grid-width;
   @include respond(tab-land){
     max-width: 100%;
-    padding: 0 4rem;
+    padding: 0 1rem;
   }
   margin: 0 auto;
   &:not(:last-child) {

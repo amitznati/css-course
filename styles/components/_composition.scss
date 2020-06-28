@@ -1,5 +1,6 @@
 .composition {
   position: relative;
+  @include clearFix;
   &__photo {
     width: 55%;
     box-shadow: $btn-hover-shadow;
@@ -19,7 +20,7 @@
       left: 50%;
       top: 3rem;
       @include respond(tab-port){
-        left: 50%;
+        left: 40%;
         top: 1rem;
       }
 
@@ -37,6 +38,11 @@
       transform: scale(2);
       z-index: 3;
       outline: 0.5rem solid $color-primary;
+      @include respond(phone){
+        left: 25%;
+        top: 0;
+        transform: scale(1.5);
+      }
     }
   }
   &:hover &__photo:not(:hover) {

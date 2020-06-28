@@ -86,9 +86,9 @@ body {
         margin-right: -5rem; } }
     @media (max-width: 37.5em) {
       .heading-primary--main {
-        font-size: 4rem;
-        letter-spacing: 3rem;
-        margin-right: -3rem; } }
+        font-size: 3rem;
+        letter-spacing: 2rem;
+        margin-right: -2rem; } }
   .heading-primary--sub {
     display: block;
     font-size: 2rem;
@@ -102,9 +102,9 @@ body {
         margin-right: -1rem; } }
     @media (max-width: 37.5em) {
       .heading-primary--sub {
-        font-size: 1.8rem;
-        letter-spacing: .55rem;
-        margin-right: -.55rem; } }
+        font-size: 1.5rem;
+        letter-spacing: .35rem;
+        margin-right: -.35rem; } }
 
 .heading-secondary {
   text-transform: uppercase;
@@ -158,6 +158,10 @@ body {
     position: absolute;
     top: 5rem;
     left: 4rem; }
+    @media (max-width: 56.25em) {
+      .header__logo-box {
+        top: 3rem;
+        right: 2rem; } }
   .header__logo {
     height: 5.5rem; }
   .header__text-box {
@@ -214,7 +218,7 @@ body {
   @media (max-width: 75em) {
     .row {
       max-width: 100%;
-      padding: 0 4rem; } }
+      padding: 0 1rem; } }
   .row:not(:last-child) {
     margin-bottom: 8rem; }
     @media (max-width: 56.25em) {
@@ -267,10 +271,19 @@ body {
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4); }
   .navigation__button:active {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4); }
+  @media (max-width: 56.25em) {
+    .navigation__button {
+      top: 3rem;
+      right: 3rem;
+      height: 5rem;
+      width: 5rem; } }
 
 .navigation__icon {
   position: relative;
   margin-top: 3.5rem; }
+  @media (max-width: 56.25em) {
+    .navigation__icon {
+      margin-top: 2.5rem; } }
   .navigation__icon, .navigation__icon:before, .navigation__icon:after {
     height: 2px;
     width: 3rem;
@@ -302,6 +315,12 @@ body {
   background-image: radial-gradient(#96e1f6, #275663);
   z-index: 1000;
   transition: transform 0.8s cubic-bezier(0.51, 0.01, 0.51, 1); }
+  @media (max-width: 56.25em) {
+    .navigation__bg {
+      top: 3.2rem;
+      right: 3.2rem;
+      height: 4.5rem;
+      width: 4.5rem; } }
 
 .navigation__nav {
   position: fixed;
@@ -311,6 +330,7 @@ body {
   z-index: 1500;
   opacity: 0;
   width: 0;
+  visibility: hidden;
   transition: all 0.8s cubic-bezier(0.52, -0.28, 0.29, 1.29); }
 
 .navigation__list {
@@ -347,7 +367,8 @@ body {
 
 .navigation__checkbox:checked ~ .navigation__nav {
   width: 100%;
-  opacity: 1; }
+  opacity: 1;
+  visibility: visible; }
 
 .navigation__checkbox:checked + .navigation__button .navigation__icon {
   background-color: transparent; }
@@ -362,11 +383,11 @@ body {
 
 .section-about {
   background-color: #f7f7f7;
-  padding: 30rem 3rem 45rem 3rem;
+  padding: 30rem 0 45rem 0;
   margin-top: -20vh; }
 
 .section-features {
-  padding: 20rem 3rem;
+  padding: 20rem 0;
   background-image: linear-gradient(to right bottom, rgba(150, 225, 246, 0.9), rgba(39, 86, 99, 0.9)), url(../../images/bg2.jpg);
   background-size: cover;
   transform: skewY(-7deg);
@@ -376,18 +397,18 @@ body {
 
 .section-packages {
   background-color: #f7f7f7;
-  padding: 30rem 3rem 10rem 3rem;
+  padding: 30rem 0 10rem 0;
   margin-top: -12vh;
   text-align: center; }
 
 .section-stories {
-  padding: 8rem 3rem 8rem 3rem;
+  padding: 8rem 0 8rem 0;
   position: relative; }
   .section-stories__footer {
     text-align: center; }
 
 .section-book {
-  padding: 15rem 3rem 15rem 3rem;
+  padding: 15rem 0 15rem 0;
   background-image: linear-gradient(to right bottom, #96e1f6, #275663); }
 
 .btn, .btn:link, .btn:visited {
@@ -465,6 +486,10 @@ body {
 
 .composition {
   position: relative; }
+  .composition:after {
+    content: '';
+    display: table;
+    clear: both; }
   .composition__photo {
     width: 55%;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
@@ -484,7 +509,7 @@ body {
       top: 3rem; }
       @media (max-width: 56.25em) {
         .composition__photo--p2 {
-          left: 50%;
+          left: 40%;
           top: 1rem; } }
     .composition__photo--p3 {
       left: 20%;
@@ -497,6 +522,11 @@ body {
       transform: scale(2);
       z-index: 3;
       outline: 0.5rem solid #4ba7c1; }
+      @media (max-width: 37.5em) {
+        .composition__photo:hover {
+          left: 25%;
+          top: 0;
+          transform: scale(1.5); } }
   .composition:hover .composition__photo:not(:hover) {
     transform: scale(0.9); }
 
@@ -517,12 +547,12 @@ body {
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4); }
 
 .card {
-  height: 50rem;
+  height: 54rem;
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative; }
   .card__side {
-    height: 50rem;
+    height: 54rem;
     position: absolute;
     transition: all .8s ease;
     top: 0;
