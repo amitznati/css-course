@@ -57,6 +57,7 @@
     padding-top: 2rem;
     @include respond(tab-port){
       float: none;
+      width: 100%;
     }
   }
 }
