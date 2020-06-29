@@ -38,6 +38,9 @@ body {
     body {
       padding: 0; } }
 
+::selection {
+  background-color: #4ba7c1; }
+
 @keyframes moveInLeft {
   0% {
     transform: translateX(-10rem);
